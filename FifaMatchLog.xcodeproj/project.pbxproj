@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		096233C135D4A768E500BC46 /* Pods-FifaMatchReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifaMatchReport.release.xcconfig"; path = "Target Support Files/Pods-FifaMatchReport/Pods-FifaMatchReport.release.xcconfig"; sourceTree = "<group>"; };
 		21812CDA2395C0A0078739E8 /* Pods_FifaMatchReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FifaMatchReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B17065C2B4A947E00091856 /* FifaMatchReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifaMatchReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B17065C2B4A947E00091856 /* FifaMatchLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifaMatchLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B17065F2B4A947E00091856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B1706612B4A947E00091856 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B1706632B4A947E00091856 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		3B1706532B4A947E00091856 = {
 			isa = PBXGroup;
 			children = (
-				3B17065E2B4A947E00091856 /* FifaMatchReport */,
+				3B17065E2B4A947E00091856 /* lFifaMatchLog */,
 				3B17065D2B4A947E00091856 /* Products */,
 				09B756958BC15753E57C3D9D /* Pods */,
 				119D44042151A8CDC96FC2AB /* Frameworks */,
@@ -91,12 +91,12 @@
 		3B17065D2B4A947E00091856 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B17065C2B4A947E00091856 /* FifaMatchReport.app */,
+				3B17065C2B4A947E00091856 /* FifaMatchLog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B17065E2B4A947E00091856 /* FifaMatchReport */ = {
+		3B17065E2B4A947E00091856 /* lFifaMatchLog */ = {
 			isa = PBXGroup;
 			children = (
 				3B8750C02B4AB90D00964DFB /* Utility */,
@@ -111,7 +111,7 @@
 				3B17066A2B4A947F00091856 /* LaunchScreen.storyboard */,
 				3B17066D2B4A947F00091856 /* Info.plist */,
 			);
-			path = FifaMatchReport;
+			path = lFifaMatchLog;
 			sourceTree = "<group>";
 		};
 		3B8750B12B4AAF3A00964DFB /* View */ = {
@@ -170,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B17065B2B4A947E00091856 /* FifaMatchReport */ = {
+		3B17065B2B4A947E00091856 /* FifaMatchLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B1706702B4A947F00091856 /* Build configuration list for PBXNativeTarget "FifaMatchReport" */;
+			buildConfigurationList = 3B1706702B4A947F00091856 /* Build configuration list for PBXNativeTarget "FifaMatchLog" */;
 			buildPhases = (
 				D535FD67C97E2CBECAC1F3E3 /* [CP] Check Pods Manifest.lock */,
 				3B1706582B4A947E00091856 /* Sources */,
@@ -184,9 +184,9 @@
 			);
 			dependencies = (
 			);
-			name = FifaMatchReport;
+			name = FifaMatchLog;
 			productName = FifaMatchReport;
-			productReference = 3B17065C2B4A947E00091856 /* FifaMatchReport.app */;
+			productReference = 3B17065C2B4A947E00091856 /* FifaMatchLog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B1706572B4A947E00091856 /* Build configuration list for PBXProject "FifaMatchReport" */;
+			buildConfigurationList = 3B1706572B4A947E00091856 /* Build configuration list for PBXProject "FifaMatchLog" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = ko;
 			hasScannedForEncodings = 0;
@@ -217,7 +217,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B17065B2B4A947E00091856 /* FifaMatchReport */,
+				3B17065B2B4A947E00091856 /* FifaMatchLog */,
 			);
 		};
 /* End PBXProject section */
@@ -496,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B1706572B4A947E00091856 /* Build configuration list for PBXProject "FifaMatchReport" */ = {
+		3B1706572B4A947E00091856 /* Build configuration list for PBXProject "FifaMatchLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B17066E2B4A947F00091856 /* Debug */,
@@ -505,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B1706702B4A947F00091856 /* Build configuration list for PBXNativeTarget "FifaMatchReport" */ = {
+		3B1706702B4A947F00091856 /* Build configuration list for PBXNativeTarget "FifaMatchLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B1706712B4A947F00091856 /* Debug */,

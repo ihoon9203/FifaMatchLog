@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334C1829F52F78DD4C7CC961 /* Pods_FifaMatchLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD989F39F37743602FF7BCCC /* Pods_FifaMatchLog.framework */; };
 		3B1706602B4A947E00091856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B17065F2B4A947E00091856 /* AppDelegate.swift */; };
 		3B1706622B4A947E00091856 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1706612B4A947E00091856 /* SceneDelegate.swift */; };
 		3B1706642B4A947E00091856 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1706632B4A947E00091856 /* HomeViewController.swift */; };
@@ -22,12 +23,11 @@
 		3B8750BA2B4AB08600964DFB /* OuidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8750B92B4AB08600964DFB /* OuidModel.swift */; };
 		3B8750BD2B4AB17D00964DFB /* UserDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8750BC2B4AB17D00964DFB /* UserDataParser.swift */; };
 		3B8750BF2B4AB2FD00964DFB /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8750BE2B4AB2FD00964DFB /* Error.swift */; };
-		8C1160AA0059A22BE98B71E9 /* Pods_FifaMatchReport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21812CDA2395C0A0078739E8 /* Pods_FifaMatchReport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		096233C135D4A768E500BC46 /* Pods-FifaMatchReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifaMatchReport.release.xcconfig"; path = "Target Support Files/Pods-FifaMatchReport/Pods-FifaMatchReport.release.xcconfig"; sourceTree = "<group>"; };
-		21812CDA2395C0A0078739E8 /* Pods_FifaMatchReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FifaMatchReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D18AC528D26A52992F5CBED /* Pods-FifaMatchLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifaMatchLog.release.xcconfig"; path = "Target Support Files/Pods-FifaMatchLog/Pods-FifaMatchLog.release.xcconfig"; sourceTree = "<group>"; };
 		3B17065C2B4A947E00091856 /* FifaMatchLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifaMatchLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B17065F2B4A947E00091856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B1706612B4A947E00091856 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,9 @@
 		3B8750B92B4AB08600964DFB /* OuidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuidModel.swift; sourceTree = "<group>"; };
 		3B8750BC2B4AB17D00964DFB /* UserDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataParser.swift; sourceTree = "<group>"; };
 		3B8750BE2B4AB2FD00964DFB /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		5E202BB21F4F43E3CD807AC6 /* Pods-FifaMatchLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifaMatchLog.debug.xcconfig"; path = "Target Support Files/Pods-FifaMatchLog/Pods-FifaMatchLog.debug.xcconfig"; sourceTree = "<group>"; };
 		A8EA5EDBEEC31A9DBCEA47AF /* Pods-FifaMatchReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FifaMatchReport.debug.xcconfig"; path = "Target Support Files/Pods-FifaMatchReport/Pods-FifaMatchReport.debug.xcconfig"; sourceTree = "<group>"; };
+		AD989F39F37743602FF7BCCC /* Pods_FifaMatchLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FifaMatchLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1160AA0059A22BE98B71E9 /* Pods_FifaMatchReport.framework in Frameworks */,
+				334C1829F52F78DD4C7CC961 /* Pods_FifaMatchLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +68,8 @@
 			children = (
 				A8EA5EDBEEC31A9DBCEA47AF /* Pods-FifaMatchReport.debug.xcconfig */,
 				096233C135D4A768E500BC46 /* Pods-FifaMatchReport.release.xcconfig */,
+				5E202BB21F4F43E3CD807AC6 /* Pods-FifaMatchLog.debug.xcconfig */,
+				2D18AC528D26A52992F5CBED /* Pods-FifaMatchLog.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -73,7 +77,7 @@
 		119D44042151A8CDC96FC2AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21812CDA2395C0A0078739E8 /* Pods_FifaMatchReport.framework */,
+				AD989F39F37743602FF7BCCC /* Pods_FifaMatchLog.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,7 +85,7 @@
 		3B1706532B4A947E00091856 = {
 			isa = PBXGroup;
 			children = (
-				3B17065E2B4A947E00091856 /* lFifaMatchLog */,
+				3B17065E2B4A947E00091856 /* FifaMatchLog */,
 				3B17065D2B4A947E00091856 /* Products */,
 				09B756958BC15753E57C3D9D /* Pods */,
 				119D44042151A8CDC96FC2AB /* Frameworks */,
@@ -96,7 +100,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B17065E2B4A947E00091856 /* lFifaMatchLog */ = {
+		3B17065E2B4A947E00091856 /* FifaMatchLog */ = {
 			isa = PBXGroup;
 			children = (
 				3B8750C02B4AB90D00964DFB /* Utility */,
@@ -111,7 +115,7 @@
 				3B17066A2B4A947F00091856 /* LaunchScreen.storyboard */,
 				3B17066D2B4A947F00091856 /* Info.plist */,
 			);
-			path = lFifaMatchLog;
+			path = FifaMatchLog;
 			sourceTree = "<group>";
 		};
 		3B8750B12B4AAF3A00964DFB /* View */ = {
@@ -241,15 +245,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FifaMatchReport/Pods-FifaMatchReport-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FifaMatchLog/Pods-FifaMatchLog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FifaMatchReport/Pods-FifaMatchReport-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FifaMatchLog/Pods-FifaMatchLog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FifaMatchReport/Pods-FifaMatchReport-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FifaMatchLog/Pods-FifaMatchLog-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D535FD67C97E2CBECAC1F3E3 /* [CP] Check Pods Manifest.lock */ = {
@@ -267,7 +271,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FifaMatchReport-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FifaMatchLog-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -435,7 +439,7 @@
 		};
 		3B1706712B4A947F00091856 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8EA5EDBEEC31A9DBCEA47AF /* Pods-FifaMatchReport.debug.xcconfig */;
+			baseConfigurationReference = 5E202BB21F4F43E3CD807AC6 /* Pods-FifaMatchLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,7 +469,7 @@
 		};
 		3B1706722B4A947F00091856 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 096233C135D4A768E500BC46 /* Pods-FifaMatchReport.release.xcconfig */;
+			baseConfigurationReference = 2D18AC528D26A52992F5CBED /* Pods-FifaMatchLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
